@@ -119,8 +119,7 @@ if __name__ == "__main__":
     url = 'https://www.zillow.com/salt-lake-city-ut/'
     #url = 'https://www.trulia.com/CA/San_Francisco/'
     #url = 'https://www.seloger.com/immobilier/achat/immo-lyon-69/'
-    url='https://www.amazon.com/smartphone/s?k=smartphone'
-    phone_fields = ["Brand","Model","Storage Capacity","Camera Resolution","Screen Size","RAM","Processor","Price"]
+    
     try:
         # Generate timestamp
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
